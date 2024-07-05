@@ -25,7 +25,7 @@ def run_train(data_path: str):
     
     with mlflow.start_run():
         
-        mlflow.set_tag("developer","melanie")
+        mlflow.set_tag("developer","aham")
         mlflow.set_tag("model","random_forest_regressor")
         mlflow.log_param("train_data_path","./data/green_tripdata_2023-01.parquet")
         mlflow.log_param("valid_data_path","./data/green_tripdata_2023-02.parquet")
